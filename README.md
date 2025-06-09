@@ -27,7 +27,7 @@ This is a complete redesign of the skip selection page that transforms the origi
 ## 🏗 Architecture
 
 ## Component Structure
-
+<pre>
 src/
 ├── components/
 │   ├── SkipCard.jsx           # Individual skip display cards
@@ -44,7 +44,7 @@ src/
 │   └── store.js               # Redux store configuration
 └── utils/
     └── constants/steps.js     # Step configuration data
-
+</pre>
 ## State Management
 
 - Redux Toolkit Query: API state management with caching
